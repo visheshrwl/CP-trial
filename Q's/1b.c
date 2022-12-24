@@ -10,6 +10,7 @@ int main(){
 		i++;
 	}
 	str1[i]='\0';
-	puts(str1);
+	printf(str1);
+	// printf("%d", strlen(str1));
 	return 0;
 }
